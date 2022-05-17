@@ -1,9 +1,39 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(225, 238, 250);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: rgb(191, 57, 253);
+}
+
+.container {
+    background-color: white;
+    width: 870px;
+    padding: 30px;
+}
+
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
+.player {
+    display: flex;
+    align-items: center;
+
+}
+
 .player img {
     width: 56px;
     height: 56px;
+}
+
+.player-name {
+    margin-left: 16px;
 }
