@@ -48,3 +48,20 @@ main {
 hr {
     border: 1px solid rgb(206, 204, 204);
 }
+
+.blog {
+    display: flex;
+}
+
+.thumbnail img {
+    width: 177px;
+    height: 117px;
+}
+
+.blog-info {
+    margin-left: 16px;
+}
+
+.blog-info a {
+    text-decoration: none;
+}
