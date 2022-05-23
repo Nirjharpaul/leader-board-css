@@ -5,7 +5,8 @@ body {
 
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .name-title {
@@ -18,6 +19,7 @@ main {
     background-color: white;
     width: 870px;
     padding: 30px;
+    margin-top: 21px;
 }
 
 .top-players {
@@ -70,4 +72,46 @@ hr {
 
 .blog-info a {
     text-decoration: none;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+
+.course {
+    width: 252px;
+    height: 270px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px 5px rgb(239, 238, 238);
+
+}
+
+.course img {
+    width: 224px;
+    height: 104px;
+}
+
+.course-detail a {
+    text-decoration: none;
+}
+
+.course-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+
+.fa-star.unfilled {
+    color: #AEAEAE;
+}
+
+.duration {
+    background-color: #FFE4E8;
+    padding: 3px 15px;
+    border-radius: 15px;
 }
